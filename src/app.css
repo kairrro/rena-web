@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────
+   DESIGN TOKENS  ·  Edit here to retheme site
+   ───────────────────────────────────────────── */
+:root {
+  --c-bg:        #ffffff;
+  --c-surface:   #f6f8ff;
+  --c-border:    #dde5ff;
+
+  --c-accent:    #4A67C8;
+  --c-accent-dk: #4A67C8;
+  --c-accent-lt: #e9efff;
+
+  --c-text:      #161b2d;
+  --c-muted:     #667085;
+
+  --r-card: 16px;
+  --r-btn:  10px;
+  --ease:   cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html  { scroll-behavior: smooth; background: var(--c-bg); }
+body  { 
+  color: var(--c-text); 
+  font-family: 'Poppins', system-ui, sans-serif; -webkit-font-smoothing: antialiased; 
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-up { animation: fade-up 0.65s var(--ease) both; }
+.d1 { animation-delay: 0.10s; }
+.d2 { animation-delay: 0.20s; }
+.d3 { animation-delay: 0.32s; }
+.d4 { animation-delay: 0.44s; }
+.d5 { animation-delay: 0.56s; }
+
+.reveal         { opacity: 0; transform: translateY(24px); transition: opacity 0.6s var(--ease), transform 0.6s var(--ease); }
+.reveal.visible { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
