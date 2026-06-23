@@ -17,5 +17,8 @@
     "svelte": "^5.0.0",
     "tailwindcss": "^4.3.1",
     "vite": "^6.0.0"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
   }
 }
