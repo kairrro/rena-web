@@ -59,7 +59,7 @@
             <span class="w-3 h-3 rounded-full" style="background: #febc2e"></span>
             <span class="w-3 h-3 rounded-full" style="background: #28c840"></span>
             <div class="flex-1 mx-4 h-6 rounded-md flex items-center px-3" style="background: #e4e4e8;">
-              <span class="text-xs" style="color: #9090a0">formastudio.io</span>
+              <span class="text-xs" style="color: #9090a0">getrena.com</span>
             </div>
           </div>
 

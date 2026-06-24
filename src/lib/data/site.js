@@ -5,7 +5,7 @@
 export const meta = {
   name:        'Rena',
   tagline:     'We build websites that convert.',
-  description: 'Forma Studio crafts high-performance websites for ambitious brands. Strategy, design, and code — all in one studio.',
+  description: 'Rena makes high-performance websites for businesses. Strategy, design, and code — all in one studio.',
   url:         'https://getrena.com',
 };
 
@@ -124,7 +124,7 @@ export const pricing = [
 
 export const testimonials = [
   {
-    quote:  'Forma delivered a site that doubled our demo bookings in the first month. The design is sharp and the code is bulletproof.',
+    quote:  'Rena delivered a site that doubled our demo bookings in the first month. The design is sharp and the code is bulletproof.',
     name:   'Sarah Kim',
     role:   'CEO, Arcline',
     initials: 'SK',
