@@ -94,31 +94,27 @@ export const portfolio = [
 
 export const pricing = [
   {
-    name:      'Tier 1',
-    price:     '$200',
-    per:       'monthly',
-    desc:      'For founders and early-stage businesses ready to launch properly.',
-    features:  ['Mobile Responsive', 'Good Security', '2 revisions per month', 'Hosting included'],
+    name:      'Monthly Plan',
+    price:     '$297',
+    per:       'month',
+    desc:      'For businesses that want ongoing support and a site that evolves with them.',
+    features:  ['Mobile Responsive', "Optimized for Speed", 'SEO Integration', 'Hosting Included', 
+                '3 Revisions per Month', 'Ongoing Maintenance', 'Lead capture via Contact Form', 'Analytics'
+              ],
     cta:       'Get started',
     highlight: false,
   },
   {
-    name:      'Tier 2',
-    price:     '$500',
-    per:       'monthly',
-    desc:      'For growing teams that need a real conversion-focused marketing site.',
-    features:  ['Contact Forms', 'Email Capture', 'Automated Followups'],
+    name:      'Lump Sum Plan',
+    price:     '$1,997',
+    per:       'one-time',
+    desc:      'Own your site outright with a single upfront payment, no contract.',
+    note:      '+ $15/mo hosting',
+    features:  ['Mobile Responsive', "Optimized for Speed", 'SEO Integration', 'Site is Yours to Keep', 'Contact Form', 'Analytics', 
+                '2 Free Revisions at Launch ($75/edit after)'
+              ],
     cta:       'Get started',
     highlight: true,
-  },
-  {
-    name:      'Tier 3',
-    price:     '$1200',
-    per:       'monthly',
-    desc:      'Ongoing design & dev — we become your embedded digital team.',
-    features:  ['Booking System', 'Dashboard', 'Email Campaign', 'Analytics'],
-    cta:       "Let's talk",
-    highlight: false,
   },
 ];
 

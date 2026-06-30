@@ -15,7 +15,7 @@
 </script>
 
 <section id="pricing" bind:this={el} class="py-28 px-6" aria-labelledby="pricing-heading">
-  <div class="max-w-6xl mx-auto">
+  <div class="max-w-4xl mx-auto">
 
     <div class="reveal flex items-center gap-3 mb-4">
       <span class="h-px w-8" style="background: var(--c-accent)"></span>
@@ -27,7 +27,7 @@
     </h2>
     <p class="reveal text-lg mb-16" style="color: var(--c-muted)">No surprises. No hidden fees.</p>
 
-    <div class="grid md:grid-cols-3 gap-6">
+    <div class="grid md:grid-cols-2 gap-6">
       {#each pricing as plan, i}
         <article
           class="reveal relative flex flex-col rounded-[var(--r-card)] p-7 transition-all duration-300 hover:-translate-y-1"
@@ -55,6 +55,10 @@
               {/if}
             </div>
             <p class="text-sm leading-relaxed opacity-70 mt-2">{plan.desc}</p>
+
+            {#if plan.note}
+              <p class="text-xs font-medium mt-2" style="opacity: 0.9">{plan.note}</p>
+            {/if}
           </div>
 
           <ul class="space-y-3 mb-8 flex-1" role="list">
